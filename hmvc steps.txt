@@ -1,0 +1,11 @@
+i) composer require spatie/laravel-permission
+ii)php artisan vendor:publish --provider="Spatie\Permission\PermissionServiceProvider"
+iii) php artisan optimize:clear
+ # or
+ php artisan config:clear
+iv)php artisan migrate
+v)composer require laravel/ui
+vi)php artisan ui:auth
+vii)npm install
+viii)npm run dev
+xi)npm run dev
