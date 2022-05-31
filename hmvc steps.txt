@@ -9,3 +9,8 @@ vi)php artisan ui:auth
 vii)npm install
 viii)npm run dev
 xi)npm run dev
+x)php artisan permission:create-role writer
+xi)php artisan permission:create-permission "writer articles"
+xii)php artisan permission:create-role writer web "create articles|edit articles"
+
+
